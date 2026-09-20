@@ -1,0 +1,40 @@
+# =========================
+# Environment & Secrets
+# =========================
+.env
+.env.*
+!.env.example
+.venv-clean/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# =========================
+# PyCharm / IDE
+# =========================
+.idea/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs & Temporary Files
+# =========================
+*.log
+*.tmp
+# Unused / excluded project files
+weather.py
+geocoder.py
+static/
